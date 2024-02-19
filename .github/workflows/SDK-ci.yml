@@ -31,4 +31,6 @@ jobs:
 
       - name: Execute NodeJS Wrapper
         run: |
+          cd sdk
+          npx smartui --version
           npm run smartui-cloud
